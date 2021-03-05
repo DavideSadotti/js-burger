@@ -36,11 +36,12 @@ main li{
   width: 50%;
 }
 
+
 /* FOOTER */
 footer{
   background-color: #d33359;
   color: #fff;
-  padding: 20px 40px 30px;
+  padding: 30px 40px 50px;
   font-size: 25px;
   font-weight: bold;
   display: flex;
