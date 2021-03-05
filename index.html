@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Snack</title>
+  </head>
+  <body>
+
+    <div class="page-container">
+      <!-- BARRA DI NAVIGAZIONE -->
+      <header>
+        <h1>Create Your Burger</h1>
+      </header>
+
+      <!-- CORPO DELLA PAGINA -->
+      <main>
+        <div class="burger-name">
+          <input id="burger-name-input" type="text" placeholder="Name Your Burger">
+        </div>
+        <div class="ingredients">
+          <h2>Ingredients</h2>
+          <ul class="Ingredients-list">
+            <li>
+              <label for="cheese">Cheese
+                <input id="cheese" type="checkbox" value="4">add
+              </label>
+            </li>
+            <li>
+              <label for="tomato">Tomato
+                <input id="tomato" type="checkbox" value="5">add
+              </label>
+            </li>
+            <li>
+              <label for="egg">Egg
+                <input id="egg" type="checkbox" value="6">add
+              </label>
+            </li>
+            <li>
+              <label for="lettuce">Lettuce
+                <input id="lettuce" type="checkbox" value="3">add
+              </label>
+            </li>
+            <li>
+              <label for="mustard">Mustard
+                <input id="mustard" type="checkbox" value="2">add
+              </label>
+            </li>
+            <li>
+              <label for="ketchup">Ketchup
+                <input id="ketchup" type="checkbox" value="2">add
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="discount">
+          <label for="coupon-input">Discount Coupon</label>
+          <input id="coupon-input" type="text">
+        </div>
+        <div class="button-calculate">
+          <button id="calculate">Calculate</button>
+        </div>
+      </main>
+
+      <!-- PIE DI PAGINA -->
+      <footer>
+        <div>Your Price</div>
+        <div id="total">50</div>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

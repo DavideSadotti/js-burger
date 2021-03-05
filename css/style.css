@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff5e2;
+}
+
+/* MIX */
+.page-container{
+  max-width: 800px;
+  background-color: #fff;
+}
+
+/* HEADER */
+header{
+  background-color: #fdbb40;
+  padding: 50px 40px 30px;
+}
+
+/* MAIN */
+main{
+  padding: 40px;
+}
+
+main ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main li{
+  padding: 20px 0;
+  list-style: none;
+  width: 50%;
+}
+
+/* FOOTER */
+footer{
+  background-color: #d33359;
+  color: #fff;
+  padding: 20px 40px 30px;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
