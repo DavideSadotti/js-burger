@@ -6,6 +6,7 @@
 
 body{
   background-color: #fff5e2;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* MIX */
@@ -18,11 +19,46 @@ body{
 header{
   background-color: #fdbb40;
   padding: 50px 40px 30px;
+  position: relative;
+}
+
+header img{
+  position: absolute;
+  right: -50px;
+  top: -50px;
 }
 
 /* MAIN */
 main{
   padding: 40px;
+}
+
+#burger-name-input{
+  border: none;
+  font-size: 25px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+#coupon-input{
+  width: 60%;
+  background-color: #fff5e2;
+  border: none;
+  border-radius: 5px;
+  margin: auto 20px;
+  outline: none;
+  height: 20px;
+}
+
+#calculate{
+  display: block;
+  margin: 25px auto;
+  padding: 15px 20px;
+  background-color: #fdbb40;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 main ul{
@@ -34,6 +70,19 @@ main li{
   padding: 20px 0;
   list-style: none;
   width: 50%;
+}
+
+.ingredients-list img{
+  width: 40px;
+  vertical-align: middle;
+}
+
+.ingredients-list li *{
+  margin-right: 10px;
+}
+
+.ingredients-list label > span:last-child{
+  color: #d33359;
 }
 
 
